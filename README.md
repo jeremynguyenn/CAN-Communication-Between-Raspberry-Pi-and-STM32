@@ -66,18 +66,18 @@ In this project:
 
 ## Wiring
 ### MCP9808:
-Vdd <-> 3v3
-GND <-> GND
-SCL <-> B6
-SDA <-> B7
-A0,A1,A2 <-> GND (I2CADDR=0x18)
+- Vdd <-> 3v3
+- GND <-> GND
+- SCL <-> B6
+- SDA <-> B7
+- A0,A1,A2 <-> GND (I2CADDR=0x18)
 ### TSL2561:
-Vin <-> NC
-GND <-> GND
-3Vo <-> 3v3
-Addr <-> NC
-Int <-> NC
-SDA <-> B7
-SCL <-> B6
+- Vin <-> NC
+- GND <-> GND
+- 3Vo <-> 3v3
+- Addr <-> NC
+- Int <-> NC
+- SDA <-> B7
+- SCL <-> B6
 
 ![alt text](https://github.com/jeremynguyenn/CAN-Communication-Between-Raspberry-Pi-and-STM32/blob/main/CAN%20communication%20a%20Raspberry%20Pi%20and%20an%20STM32%20device/wiring.png)
