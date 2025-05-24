@@ -81,3 +81,41 @@ In this project:
 - SCL <-> B6
 
 ![alt text](https://github.com/jeremynguyenn/CAN-Communication-Between-Raspberry-Pi-and-STM32/blob/main/CAN%20communication%20a%20Raspberry%20Pi%20and%20an%20STM32%20device/wiring.png)
+
+----
+## Realistic model
+![Modelimage](https://github.com/user-attachments/assets/3673ad14-af76-496f-bc96-0fe689c73629)
+
+----
+## Analyzing Frames with Analyzer
+Frame I2C
+- Luminosity TSL2561 0x39:
+![image](https://github.com/user-attachments/assets/bad25f50-248a-4f7d-8b79-0b5b60d419c9)
+
+- Temperature MCP9808 0x18:
+![image](https://github.com/user-attachments/assets/072993a5-2c2e-4cf9-9d2f-4b7411a64679)
+
+Frame CAN
+- Luminosity ID 0x22 DATA: 2Bytes
+![image](https://github.com/user-attachments/assets/9e8a32ea-7266-4edb-aec2-b4aed1adab32)
+
+- Temperature ID 0x11 DATA: 2Bytes
+![image](https://github.com/user-attachments/assets/3d2c8bc3-68fb-4796-8273-c480dfab3ca8)
+
+- CAN raspberry pi:
+![image](https://github.com/user-attachments/assets/0ccc5568-7ab9-40de-8132-9ea288159410)
+
+- LED ID 0x33 DATA:{1/ON : 0/OFF}
+![image](https://github.com/user-attachments/assets/82aa4d7d-03a7-4f69-95fe-a4194b69b217)
+
+----
+## Result interface:
+![image](https://github.com/user-attachments/assets/292d7f35-9f0b-405b-b464-19a70f986ec7)
+
+## Domoticz Interface:
+- Temperature ID 0x11
+![image](https://github.com/user-attachments/assets/b6dd7184-c417-4fdb-b43e-c7655dbc1fc4)
+
+
+- Luminosity ID 0x22
+![image](https://github.com/user-attachments/assets/c62213cf-5492-4fc7-9dae-46fc9f7cf45f)
